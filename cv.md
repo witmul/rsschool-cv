@@ -35,7 +35,16 @@ Designing / deploying / maintaining:
 - ETL processes, data modelling and data analysis;
 *Technologies: (Alteryx, Power BI, Python)*
 
+---
 
+## Some code example
+Here is a solution for [one of the tasks](https://www.codewars.com/kata/5862f663b4e9d6f12b00003b) on codewars that i wrote in Rust:
+
+```Rust
+fn guess_blue(blue_start: u32, red_start: u32, blue_pulled: u32, red_pulled: u32) -> f32 {
+    (blue_start as f32 - blue_pulled as f32) / ((blue_start as f32 - blue_pulled as f32) + (red_start as f32 - red_pulled as f32))
+}
+```
 
 ---
 
