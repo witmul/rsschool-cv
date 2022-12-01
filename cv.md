@@ -3,7 +3,7 @@
 ## About myself
 Hi, my name is Vitalii. I'm open, honest, motivated person focused on the continuous development of my competences, skills and knowledge. I have a positive approach to new challenges and experiences, and I am also not afraid to learn from my own mistakes. 
 
-My career started as an intern in international bank. Later, I was converted to permanent employee, and I've spent 3 years there doing administrative stuff. I always felt like this was not my cup of tea. At some point, me and my friend started working on some side projects in Python ([**one of them was published publically**](https://news.yahoo.com/long-cats-without-water-day-164148376.html)). Those projects helped me land a job as a business application developer at a small company.
+My career started as an intern in international bank. Later, I was converted to permanent employee, and I've spent 3 years there doing administrative stuff. I always felt like this was not my cup of tea. At some point, me and my friend started working on some side projects in Python ([**one of them was published publically**](https://github.com/plutus-IV-org/plutus_backtest)). Those projects helped me land a job as a business application developer at a small company.
 
 Looking at my involvement in side projects, the company's vision, and its product, I see the importance of learning front-end development. 
 
