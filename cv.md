@@ -7,13 +7,11 @@ My career started as an intern in international bank. Later, I was converted to 
 
 Looking at my involvement in side projects, the company's vision, and its product, I see the importance of learning front-end development. 
 
----
 
 ## Contact information
 - [Discord](https://discord.com/users/453863351680892929)
 - [GitHub](https://github.com/witmul)
 
----
 
 ## **Relevant** work experience
 
@@ -35,7 +33,6 @@ Designing / deploying / maintaining:
 - ETL processes, data modelling and data analysis;
 *Technologies: (Alteryx, Power BI, Python)*
 
----
 
 ## Some code example
 Here is a solution for [one of the tasks](https://www.codewars.com/kata/5862f663b4e9d6f12b00003b) on codewars that i wrote in Rust:
@@ -45,8 +42,6 @@ fn guess_blue(blue_start: u32, red_start: u32, blue_pulled: u32, red_pulled: u32
     (blue_start as f32 - blue_pulled as f32) / ((blue_start as f32 - blue_pulled as f32) + (red_start as f32 - red_pulled as f32))
 }
 ```
-
----
 
 ## Languages
 1. Ukrainian - Native
