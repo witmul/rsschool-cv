@@ -11,7 +11,7 @@ body {
 
 .container{
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 20px auto;
   min-height: 50px;
   background-color: #b9b9b9;
 }
@@ -20,7 +20,7 @@ body {
   background-color: #adadad;
 }
 
-.main-container {
+.photo-title-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -102,4 +102,25 @@ body {
   color: #6f6f6f;
   font-weight: 500;
   letter-spacing: 2px;
+}
+
+.aside {
+	width: 30%;
+	background-color: #202026;
+	color: #fff;
+  text-align: center;
+}
+
+.side-container {
+
+}
+
+.section-side-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin:0 0 0 0 ;
 }
