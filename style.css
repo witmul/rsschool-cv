@@ -1,63 +1,61 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: #5c5c5c;
+  background-color: #6B8490;
 }
 
-.header {
-  background-color: #828282;
-  margin: 0 auto;
-  max-width: 1440px;
+ul {
+  list-style: none;
+  text-transform: uppercase;
 }
 
-.container{
+main{
+  margin-bottom: auto;
+}
+
+.box {
   max-width: 1440px;
   margin: 20px auto;
   min-height: 50px;
-  background-color: #b9b9b9;
+  background-color: #C0B3A0;
+  border: 2px solid #000;
+  border-radius: 15px;
 }
 
-.navigation {
-  background-color: #adadad;
+.header__navigation {
+  background-color: #C0B3A0;
 }
 
-.photo-title-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.navigation-list{
+.header__list{
   display: flex;
   justify-content: flex-end;
-  list-style: none;
   align-items: center;
 }
 
-.navigation-link {
-  text-decoration: none;
-  color: #6f6f6f;
+.header__link {
+  color: #252930;
   position: relative;
   padding: 0 12px;
   font-size: 15px;
   font-weight: 200;
   line-height: 60px;
-
+  text-decoration: none;
 }
 
-.section-profile {
+.main__inroduction {
   display: flex;
   justify-content: space-around;
   width: 100%;
   padding: 50px 30px 35px;
 }
 
-.section-profile-photo {
+.main__photo {
   width: 300px ;
   height: 300px ;
   border-radius: 50%;
+  border: 2px solid #000;
 }
 
-.section-profile-title {
+.main__title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,61 +64,77 @@ body {
     text-transform: uppercase;
 }
 
-.main{
-  margin-bottom: auto;
-}
-
-.column-left {
-  width: 40%;
-  background-color: rgb(136, 133, 130);
-  padding: 0 50px 0 50px;
-}
-
-.column-right {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(163, 158, 150);
-  padding: 0 50px;
-  justify-content: center;
-}
-
-.section-profile-title-name {
+.main__name {
   align-self: center;
   position: relative;
   padding: 0;
   margin-bottom: 3px;
-  color: #6f6f6f;
+  color: #252930;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 5px;
   word-spacing: 3px;
 }
 
-.section-profile-title-role {
+.main__role {
   margin-top: 20px;
-  color: #6f6f6f;
+  color: #252930;
   font-weight: 500;
   letter-spacing: 2px;
 }
 
-.aside {
-	width: 30%;
-	background-color: #202026;
-	color: #fff;
-  text-align: center;
-}
-
-.side-container {
-
-}
-
-.section-side-title {
+.main__aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  text-align: center;
-  text-transform: uppercase;
+  text-align: left;
+	width: 30%;
+	color: #252930;
+  padding: 20px 10px 0 20px;
+  margin: 0 0 0 0;
+  border-right: 2px solid #000;
+
+}
+
+.main__side-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
   margin:0 0 0 0 ;
+  text-transform: uppercase;
+}
+
+.main__contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.contact-link {
+  text-decoration: underline;
+  color: #252930;
+  font-weight: 600;
+}
+
+.discord-icon {
+  background-image: url(./img/discord.svg);
+}
+
+.telegram-icon {
+  background-image: url(./img/telegram.svg);
+}
+
+.github-icon {
+  background-image: url(./img/github.svg);
 }
