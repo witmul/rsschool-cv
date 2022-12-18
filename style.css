@@ -17,8 +17,15 @@ footer {
   align-items: center;
 }
 
+pre {
+	font-family: monospace;
+	font-size: 15px;
+	background-color: #e6d8c3;
+  border: 1px solid #000;
+}
+
 .box {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 20px auto;
   min-height: 50px;
   background-color: #C0B3A0;
